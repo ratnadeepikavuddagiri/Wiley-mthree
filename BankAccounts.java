@@ -15,11 +15,11 @@ class Account{
         System.out.println("\nDebited Amount "+amount+"\nYour Current Balance : "+balance);
 
     }
-    void credit(int amount) {
+    protected void credit(int amount) {
         balance += amount;
         System.out.println("\nCredited Amount: "+amount+"\nYour current Balance : "+balance);
     }
-    void print(){
+    protected void print(){
         System.out.println("\nAccount Holder Name : "+accountHolder);
         System.out.println("Balance : "+balance);
         
