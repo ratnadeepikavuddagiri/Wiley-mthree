@@ -14,7 +14,8 @@ public class Anagrams {
                 System.out.println("Anagrams");
             else
             System.out.println("Not Anagrams.");
-        }        
+        }       
+        scanner.close(); 
     }
 
     static String sortString(String str){

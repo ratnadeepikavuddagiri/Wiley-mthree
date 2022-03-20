@@ -13,6 +13,6 @@ public class Armstrong {
             n = n / 10;
         }
         System.out.println(sum == original);
-
+        S.close();
     }
 }
